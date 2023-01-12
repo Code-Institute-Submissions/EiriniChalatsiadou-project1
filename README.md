@@ -1,108 +1,132 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# <b>ANCIENT GREECE</b>
 
-Welcome EiriniChalatsiadou,
+Greece is one of the most ancient and historic countries in the world. 
+With this site i would like to saw to the people that they don't know too much
+things for Ancient Greece to take a small taste so they can learn more about.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+εικονα απο responsive
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features
 
-## Gitpod Reminders
+- <h3><b>Navigation</b></h3>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+ ![navigation](images/readme/navigation-screenshot.png)
 
-`python3 -m http.server`
+In this section it is a navigation bar so you can go accross the site easily across all devices without having to revert back to the previous page via the ‘back’ button.
+It's one horizontal bar with black background and lighter text so you can see the contrast.
 
-A blue button should appear to click: _Make Public_,
+1. Home
+2. The Acropolis museum
+3. Panathenaic stadium
+4. Contact
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+# <b>Ancient Greece</b>
 
-A blue button should appear to click: _Make Public_,
+## The landing page image
 
-Another blue button should appear to click: _Open Browser_.
+At the header you can see a large picture, to grab your attention, with Acropolis in the ancient years and a text that has a small description about Greece that is the birthplace of Democracy, Philosophy, Arts.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+ ![header](images/readme/header1-screenshot.png)
 
-To log into the Heroku toolbelt CLI:
+- <h3><b>Home section</b></h3>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+This section has 3 parts, you can see some general info about Acropolis and Parhtenon and pictures from how there are look like now.
+Also for the Ancient Greece you can see a video about the history, Democracy, Philosophy, Arts and Maths.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![general information1](images/readme/general-information1-screenshot.png)
 
-------
+- <h3><b>The Acropolis museum</b></h3>
 
-## Release History
+At this section you can see The Acropolis museum, from the Greek Bronze Age to Roman and Byzantine Greece, marbles and statues.
+Also it is a link you can visit to see more information and will open to a new tab for easiest navigation.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![museum](images/readme/museum-screenshot.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- <h3><b>Panathenaic stadium</b></h3>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+In this section you can see from where the first modern Olympic games began in 1896 and some general info too.
+Also if somebody is an athlete or interested for the games it is nice to know from where they began.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+![stadium](images/readme/pstadium-screenshot.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- <h3><b>Contact</b></h3>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+At the last section you will find the opening hours also an address, a phone contant and an email if you need to find more info.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![contact](images/readme/contact-screenshot.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- <h3><b>The Footer</b></h3>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The footer section includes links to the relevant social media Facebook, Instagram and Twitter. The links will open to a new tab to allow for easiest navigation.
+The footer is valuable to the user as it encourages them to keep connected via social media.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![footer](images/readme/footer-screenshot.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<h2><b>Testing</b></h2>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- I tested and that page works in different broswsers, Chrome, Safari, Firefox.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- I confirm that this project is respinsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- I confirmed that the navigation, Home, The Acropolis museun, Panathenaic stadium, Contact are all readable and 
+ easy to understand.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+<h2><b>Validator Testing</b></h2>
 
-## FAQ about the uptime script
+- HTML
+     - No errors were returned when passing through the official W3C validator
+- CSS 
+     - No errors were found when passing through the official (Jigsaw) validator
 
-**Why have you added this script?**
+<h2><b>Unfixed Bugs</b></h2>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+ You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+<h2><b>Unfixed bugs</b></h2>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+   No unfixed bugs
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+   <h2><b>Deployment<b></h2>
 
-**Can I opt out?**
+ - The site was deployed to GitHub pages. The steps to deploy are as follows:
+ - In the GitHub repository,navigate to the Settings tab
+ - From the source section drop-down menu, select the Master Branch
+ - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon 
+   display to indicate the successful deployment.
+ - The link can be found: https://eirinichalatsiadou.github.io/project1/
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+<h2><b>Credits</b></h2>
 
-**Anything more?**
+ <h3><b>Content</b></h3>
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- All the texts for the Home page, The Acropolis museum, Panathenaic stadium was taken from Wikipedia.
+   - https://en.wikipedia.org/wiki/Acropolis_of_Athens
+   - https://en.wikipedia.org/wiki/Ancient_Greece
+   - https://en.wikipedia.org/wiki/Acropolis_Museum
+   - https://en.wikipedia.org/wiki/Panathenaic_Stadium
+   - https://www.history.com/topics/ancient-greece/parthenon#:~:text=The%20Parthenon%20is%20a%20resplendent,as%20the%20Acropolis%20of%20Athens.
 
----
+- The video for Ancient Greece (Home page) was taken  from Specific YouTube video (Ancient Greece-National 
+  Geographic).
 
-Happy coding!
+- The link for The Acropolis museum (Home page) was taken from the official website "The Acropolis museum".
+
+
+<h3><b>Media</b></h3>
+
+- The icons for my project was taken:
+   - https://en.wikipedia.org/wiki/Parthenon
+   - https://www.onthegotours.com/blog/2022/04/6-places-to-visit-in-athens-after-the-acropolis/
+   - https://www.greece-is.com/exploring-the-ancient-city-beneath-the-acropolis-museum/
+   - https://greekreporter.com/2021/04/08/the-first-modern-olympics-are-held-in-greece-in-april-1896/
+   - https://scontent.fdub5-1.fna.fbcdn.net/v/t39.30808-6/302179856_447158564095640_7942190910465697263_n.jpg?_
+   - https://ilovepatrida.com/%CE%B5%CE%BB%CF%8D%CF%84%CE%B7%CF%82-%CE%BA%CE%B1%CE%B9-%CE%B5%CE%BB%CE%B5%CF%85%CF%83%CE%AF%CE%BD%CE%B9%CE%B1-%CE%BC%CF%85%CF%83%CF%84%CE%AE%CF%81%CE%B9%CE%B1-%CE%BC%CE%B5-%CF%84%CE%B7%CE%BD-%CE%BC/
+
+- The icons for the footer (social media) were taken from Google.
+
