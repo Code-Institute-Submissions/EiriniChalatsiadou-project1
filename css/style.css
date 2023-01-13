@@ -7,7 +7,7 @@ body {
 }
 
 #outer-container, #outer-header-container{
-    width: 1440px;
+    width: 1024px;
     margin: 0 auto;
 }
   #home {
@@ -104,7 +104,6 @@ nav > a {
 }
 
 #contact {
-    margin-bottom: 50px;
     font-family: Gabriola, sans-serif;
     font-size: 25px;
 }
@@ -219,11 +218,11 @@ fieldset {
     background-color: rgba(60, 58, 58, 0.6);
     width: 500px;
     padding: 30px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .signup-form>input{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 #sign-up {
@@ -238,7 +237,7 @@ fieldset {
     margin-bottom: 20px;
 }
 
-@media screen  and (max-width: 1440px){
+@media screen  and (max-width: 1024px){
     .header-text {
         padding: 100px 0 0 0;
         margin: 0 auto;

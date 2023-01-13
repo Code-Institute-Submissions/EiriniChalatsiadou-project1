@@ -19,6 +19,7 @@ It's one horizontal bar with black background and lighter text so you can see th
 2. The Acropolis museum
 3. Panathenaic stadium
 4. Contact
+5. Sign up
 
 
 # <b>Ancient Greece</b>
@@ -61,10 +62,16 @@ At the last section you will find the opening hours also an address, a phone con
 The footer section includes links to the relevant social media Facebook, Instagram and Twitter. The links will open to a new tab to allow for easiest navigation.
 The footer is valuable to the user as it encourages them to keep connected via social media.
 
-- <h3><b>Sign up</b></h3>
-
 
 ![footer](images/readme/footer-screenshot.png)
+
+- <h3><b>Sign up</b></h3>
+
+In this page we allow to get signed up to Ancient Greece for more information. 
+  - You need to submit the full name and email address.
+
+![sign-up](images/readme/sign-up-screenshot.png)
+
 
 <h2><b>Testing</b></h2>
 
@@ -83,14 +90,10 @@ The footer is valuable to the user as it encourages them to keep connected via s
 - CSS 
      - No errors were found when passing through the official (Jigsaw) validator
 
-<h2><b>Unfixed Bugs</b></h2>
-
- You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
-
 
 <h2><b>Unfixed bugs</b></h2>
 
-   No unfixed bugs
+   No  bugs
 
 
    <h2><b>Deployment<b></h2>
