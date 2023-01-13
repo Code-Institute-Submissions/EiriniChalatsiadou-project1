@@ -7,13 +7,13 @@ body {
 }
 
 #outer-container, #outer-header-container{
-    width: 1024px;
+    width: 1440px;
     margin: 0 auto;
 }
   #home {
      height: 500px;
      background: url("../images/ancient-greece.jpg") center 11% / cover no-repeat;
-     color:rgb(240,230,140);
+     color: #ddc29b;
   }
 
 .text-right {
@@ -60,7 +60,7 @@ img {
 
 .header-text {
     padding-top: 230px;
-    padding-right: 15%;
+    width: 75%;
     float: right;
 }
 
@@ -235,6 +235,12 @@ fieldset {
 .signup-form h2 {
     color: #d7d4d4;
     margin-bottom: 20px;
+}
+
+@media screen  and (min-width: 1025px) and (max-width: 1443px) {
+    #outer-container, #outer-header-container{
+        width: 1024px;
+    }
 }
 
 @media screen  and (max-width: 1024px){

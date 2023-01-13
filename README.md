@@ -4,7 +4,7 @@ Greece is one of the most ancient and historic countries in the world.
 With this site i would like to saw to the people that they don't know too much
 things for Ancient Greece to take a small taste so they can learn more about.
 
-εικονα απο responsive
+![responsive](images/readme/responsive-screenshot.png)
 
 ## Features
 
