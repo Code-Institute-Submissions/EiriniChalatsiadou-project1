@@ -10,7 +10,7 @@ things for Ancient Greece to take a small taste so they can learn more about.
 
 - <h3><b>Navigation</b></h3>
 
- ![navigation](images/readme/navigation-screenshot.png)
+ ![navigation](images/readme/navbar-screenshot.png)
 
 In this section it is a navigation bar so you can go accross the site easily across all devices without having to revert back to the previous page via the ‘back’ button.
 It's one horizontal bar with black background and lighter text so you can see the contrast.
@@ -61,6 +61,9 @@ At the last section you will find the opening hours also an address, a phone con
 The footer section includes links to the relevant social media Facebook, Instagram and Twitter. The links will open to a new tab to allow for easiest navigation.
 The footer is valuable to the user as it encourages them to keep connected via social media.
 
+- <h3><b>Sign up</b></h3>
+
+
 ![footer](images/readme/footer-screenshot.png)
 
 <h2><b>Testing</b></h2>
@@ -83,7 +86,6 @@ The footer is valuable to the user as it encourages them to keep connected via s
 <h2><b>Unfixed Bugs</b></h2>
 
  You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
-
 
 
 <h2><b>Unfixed bugs</b></h2>
