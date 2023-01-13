@@ -1,102 +1,109 @@
+@import url('https://fonts.cdnfonts.com/css/gabriola');
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    background-color: rgb(234, 221, 202);
+}
+
+#outer-container, #outer-header-container{
+    width: 1440px;
+    margin: 0 auto;
+}
   #home {
      height: 500px;
      background: url("../images/ancient-greece.jpg") center 11% / cover no-repeat;
      color:rgb(240,230,140);
   }
 
-  .text-right {
-   text-align: right;
+.text-right {
+    text-align: right;
+}
+.bottom-space {
+    padding-bottom: 20px;
+}
 
-  }
-
-  #parthenon {
+#parthenon, #acropolis {
     width: 50%;
-  }
+}
 
-  #acropolis {
-  width: 50%;
-  }
+.info-container-img {
+    width: 400px;
+}
 
-  #video {
-  float: none;
-  }
+#video {
+    float: none;
+}
 
- #museum {
+#museum {
     min-height: 250px;
- }
+}
 
 #panathenaic-stadium-info {
-height:140px;
-margin-top: 15px;
-}
-#info-container {
-height:470px;
+    margin-top: 15px;
 }
 
 img {
-border-radius: 10px;
+    border-radius: 10px;
+}
+
+#video-container>iframe {
+    width: 800px;
+    height: 450px;
+}
+
+.page-header {
+    height: 50vh;
+    background: center 75% / cover no-repeat;
+    font-family: Arial-Black, sans-serif;
+}
+
+.header-text {
+    padding-top: 230px;
+    padding-right: 15%;
+    float: right;
+}
+
+nav {
+    padding: 1rem;
+}
+nav > a {
+    text-decoration: none;
+    color: beige;
+    margin: 1rem;
+    font-weight: bold;
+    font-family: Gabriola, sans-serif;
+    font-size: 25px;
 }
 
 
-  .page-header {
-      height: 50vh;
-    background: center 75% / cover no-repeat;
-    font-family: Arial-Black, sans-serif;
-  }
-
-
-  .header-text{
-      padding-top:230px;
-      padding-right: 15%;
-      float: right;
-  }
-
-  nav {
-  padding:1rem;
-  }
-
-
-  nav > a {
-      text-decoration: none;
-      color: beige;
-      margin: 1rem;
-      font-weight: bold;
-      font-family: Gabriola, sans-serif;
-      font-size: 25px;
-  }
-
   .black-background {
     background-color: #000000;
-  }
- 
+}
 
-  body {
-	font-family: 'Open Sans', sans-serif;
-	margin: 0 auto;
-	background-color: rgb(234, 221, 202);
-    width: 1440px;
-  }
+.float-left {
+    float: left;
+}
 
-  .float-left {
-      float:left;
-  }
-  .one-third-width-column {
-      width: 33.33%;
-      display: inline-block;
-  }
-  .text-center { 
-      text-align: center;
- }
+.one-third-width-column {
+    width: 33.33%;
+    display: inline-block;
+}
 
-  .float-right {
-      float: right;
- }
-  .two-thirds-width-column {
-      width: 66.66%;
-      display: inline-block;
- }
-  #contact {
+.text-center {
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+}
+
+.two-thirds-width-column {
+    width: 66.66%;
+    display: inline-block;
+}
+
+#contact {
     margin-bottom: 50px;
     font-family: Gabriola, sans-serif;
     font-size: 25px;
@@ -110,14 +117,14 @@ border-radius: 10px;
 .contact-box-left {
     width: 250px;
     margin-top: -20px;
-	float: left;
+    float: left;
 }
 
 .contact-box-right {
     width: 250px;
     text-align: right;
     margin-top: -20px;
-	float: right;
+    float: right;
 }
 
 .spacer {
@@ -131,83 +138,99 @@ border-radius: 10px;
     text-align: center;
 }
 
-
- footer {
+footer {
     background-color: #814141;
     padding: 1em;
     text-align: center;
     width: 100%;
     position: fixed;
-    bottom:0;
-    right:0;
+    bottom: 0;
+    right: 0;
     z-index: 6;
-    display:block;
+    display: block;
     font-size: 15px;
- 
+
 }
+
 footer > span {
-	color: silver;
+    color: silver;
 }
 
 footer > a {
-	color: beige;
-	text-decoration: none;
-	padding: 0 15px;
-	font-size: 1rem;
+    color: beige;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 1rem;
 }
 
 footer > p {
-	color: silver;
+    color: silver;
 }
+
 fieldset {
-	border: none;
-	margin-top: 20px;
+    border: none;
+    margin-top: 20px;
 }
+
 .half-width-column {
-      width: 50%;
-      display: inline-block;
+    width: 50%;
+    display: inline-block;
 }
 
 .width-100pc {
-width: 100%;
-}
-
-.frame-border {
-border: none;
-}
-@keyframes image-move {
-    0%   { transform: rotate(0deg);}
-    25%  { transform: rotate(5deg);}
-    50%  { transform: rotate(0deg);}
-    75%  { transform: rotate(-5deg);}
-    100% { transform: rotate(0deg);}
-}
-.move:hover{
-    animation: image-move 0.4s infinite;
-}
-
-.text-width {
-
     width: 100%;
 }
 
-
-.signup-form {
-
-    margin: 150px 10% 0 0;
-    color: rgb(236, 231, 231);
-    background-color: rgba(60, 58, 58, 0.6);
-    max-width: 4s00px;
-    position: absolute;
-    left: 0.5%;
-    padding: 30px;
+.frame-border {
+    border: none;
 }
 
-.form-section {
+@keyframes image-move {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.move:hover {
+    animation: image-move 0.4s infinite;
+}
+.text-title {
+    height:33px;
+}
+.text-width {
+    width: 95%;
+}
+
+.signup-form {
+    margin: 0 auto;
+    color: rgb(236, 231, 231);
+    background-color: rgba(60, 58, 58, 0.6);
+    width: 500px;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+
+.signup-form>input{
+    font-size: 1.5rem;
+}
+
+#sign-up {
     clear: left;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 500px;
 }
 
 .signup-form h2 {
@@ -215,30 +238,63 @@ border: none;
     margin-bottom: 20px;
 }
 
-.text-input {
-    background: transparent;
-    color: rgb(250, 240, 240);
-    width: 100%;
-    height: 50px;
-    margin: 5px 0 20px 0;
-    border: 1px solid rgb(250, 240, 240);
-    border-radius: 3px;
+@media screen  and (max-width: 1440px){
+    .header-text {
+        padding: 100px 0 0 0;
+        margin: 0 auto;
+    }
+    #outer-header-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    #outer-container {
+        width: 90%;
+    }
+    #info-container>div {
+        width: 100%;
+    }
+    .info-container-img {
+        width: 100%;
+    }
+    #video-container>iframe {
+        width: 100%;
+        height: 50vw;
+    }
+
+    .one-third-width-column, .two-thirds-width-column {
+        width: 100%;
+        display: block;
+    }
+    .text-right {
+        text-align: center;
+    }
+
+    #museum img {
+        width:100%
+    }
+    .float-left, .float-right {
+        float: none;
+        clear: both;
+    }
+    #contact{
+        margin: 0 auto;
+    }
+    .contact-boxes-container {
+        width: 100%;
+    }
+    .contact-box-left, .contact-box-center, .contact-box-right {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+    .contact-box-left > table {
+        margin: 0 auto;
+    }
+    #outer-header-container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .signup-form {
+        width:90%;
+    }
 }
-
-.text-input:hover { 
-    border-color: #f16c6b;
-}
-  
-  div.transbox {
-    margin: 30px;
-    /* border: 1px solid black; */
-    opacity: 40%;
-  }
-  
-  div.transbox p {
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
-  }
-
-
