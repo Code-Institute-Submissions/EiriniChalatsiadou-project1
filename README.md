@@ -4,7 +4,7 @@ Greece is one of the most ancient and historic countries in the world.
 With this site i would like to saw to the people that they don't know too much
 things for Ancient Greece to take a small taste so they can learn more about.
 
-![responsive](images/readme/responsive-screenshot.png)
+![responsive1](images/readme/responsive1-screenshot.png)
 
 ## Features
 
@@ -28,7 +28,7 @@ It's one horizontal bar with black background and lighter text so you can see th
 
 At the header you can see a large picture, to grab your attention, with Acropolis in the ancient years and a text that has a small description about Greece that is the birthplace of Democracy, Philosophy, Arts.
 
- ![header](images/readme/header1-screenshot.png)
+ ![header](images/readme/header-screenshot.png)
 
 - <h3><b>Home section</b></h3>
 
@@ -57,14 +57,6 @@ At the last section you will find the opening hours also an address, a phone con
 
 ![contact](images/readme/contact-screenshot.png)
 
-- <h3><b>The Footer</b></h3>
-
-The footer section includes links to the relevant social media Facebook, Instagram and Twitter. The links will open to a new tab to allow for easiest navigation.
-The footer is valuable to the user as it encourages them to keep connected via social media.
-
-
-![footer](images/readme/footer-screenshot.png)
-
 - <h3><b>Sign up</b></h3>
 
 In this page we allow to get signed up to Ancient Greece for more information. 
@@ -73,14 +65,22 @@ In this page we allow to get signed up to Ancient Greece for more information.
 ![sign-up](images/readme/sign-up-screenshot.png)
 
 
+- <h3><b>The Footer</b></h3>
+
+The footer section includes links to the relevant social media Facebook, Instagram and Twitter. The links will open to a new tab to allow for easiest navigation.
+The footer is valuable to the user as it encourages them to keep connected via social media.
+
+
+![footer](images/readme/footer-screenshot.png)
+
+
 <h2><b>Testing</b></h2>
 
 - I tested and that page works in different broswsers, Chrome, Safari, Firefox.
 
 - I confirm that this project is respinsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
 
-- I confirmed that the navigation, Home, The Acropolis museun, Panathenaic stadium, Contact are all readable and 
- easy to understand.
+- I confirmed that the navigation, Home, The Acropolis museun, Panathenaic stadium, Contact and Sign up are all readable and easy to understand.
 
 
 <h2><b>Validator Testing</b></h2>
